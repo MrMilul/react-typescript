@@ -17,7 +17,8 @@ function App() {
   const [people, setPeople] = useState<ISatet["people"]>([{
     name:'milad',
     age:30,
-    url:"dasf"
+    url:"dasf",
+    note: "the most hadnsome men in the world!"
   }])
    
   return (
